@@ -1,0 +1,88 @@
+/* src/styles.css */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+img {
+  width: 150px;
+  margin-right: 20px;
+  border-radius: 5px;
+  height: 150px;
+}
+
+p {
+  margin: 0;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus {
+  border-color: #0f1010;
+  outline: none;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+/* 
+.container {
+  margin-bottom: 20px;
+}
+
+.container > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.summary-item p {
+  margin: 0;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 18px;
+  color: #007bff;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+} */

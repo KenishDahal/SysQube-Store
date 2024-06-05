@@ -1,0 +1,8 @@
+@use "./util/breakpoints" as u;
+@import "./globals/typo";
+
+// components
+@import "./components/cart";
+@import "./components/shipping";
+@import "./components/payment";
+@import "./components/summary";

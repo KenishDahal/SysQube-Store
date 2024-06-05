@@ -1,0 +1,30 @@
+.summary {
+  &__info {
+    background-color: #2e72bb;
+    padding: 20px;
+  }
+  &__ul {
+    list-style-type: none;
+    padding: 0;
+    &__details {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 10px 20px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+  }
+  &__totals {
+    padding: 20px;
+    .total {
+      color: rgb(246, 86, 0);
+    }
+  }
+  &__shiping {
+    padding: 20px;
+    border: 2px solid #2e72bb;
+    &__heading {
+      color: #2e72bb;
+    }
+  }
+}
